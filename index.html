@@ -7,30 +7,30 @@
     <title>Anime Characters App</title>
 </head>
 <body>
-
-    <h1>Anime Characters App</h1>
-
-    <div class="buttons">
-        <button>Attack On Titan</button>
-        <button>Naruto</button>
-        <button>Kuroko No Basket</button>
-    </div>
-
-    <div class="controls">
-        <span id="prev-btn">
-            Previous
-        </span>
-
-        <span id="next-btn">
-            Next
-        </span>
-
-    </div>
-
-    <div class="char" id='char-infos'>
-
-    </div>
+    <div>
+        <h1>Anime Characters App</h1>
     
+        <form id="search-form">
+            <input type="search" id="search-input">
+            <button>Search</button>
+        </form>
+    
+        <div class="controls">
+            <button id="prev-btn">
+                Previous
+            </button>
+    
+            <button id="next-btn">
+                Next
+            </button>
+        </div>
+    
+        <h1 id="anime-title"></h1>
+    
+        <div class="char" id='char-infos'>
+            
+        </div>
+    </div>
 
     <script
         src="https://code.jquery.com/jquery-3.5.1.min.js"
