@@ -64,6 +64,11 @@ button, input{
         &:focus {
             box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.466);
         }
+        &::placeholder {
+            color: $primaryColor;
+            opacity: 0.6;
+            font-weight: 500;
+        }
     }
     
     & > button {
@@ -102,7 +107,6 @@ button, input{
         overflow-y: auto;
         height: 75vh;
         padding: .5em 1em;
-        margin: 0 3em;
         grid-row: 1 / -1;
         grid-column: 1 span 1;
         
